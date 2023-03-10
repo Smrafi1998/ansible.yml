@@ -1,6 +1,6 @@
 ---
   - name: simple playbook
-    hosts: node
+    hosts: localhost
     gather_facts: false
     tasks:
       - name: print message
