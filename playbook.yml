@@ -1,0 +1,8 @@
+---
+  - name: simple playbook
+    hosts: localhost
+    gather_facts: false
+    tasks:
+      - name: print message
+        debug:
+          msg: Hello Ansible World
